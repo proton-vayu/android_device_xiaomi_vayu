@@ -29,6 +29,12 @@ on enable-low-power
     # Enable PowerHAL hint processing
     setprop vendor.powerhal.init 1
 
+    # Scheduler Sunfish
+    write /proc/sys/kernel/sched_downmigrate 85
+    write /proc/sys/kernel/sched_upmigrate 95
+    write /proc/sys/kernel/sched_downmigrate_boosted 25
+    write /proc/sys/kernel/sched_upmigrate_boosted 25
+
 on property:init.svc.recovery=running
     trigger enable-low-power
 
