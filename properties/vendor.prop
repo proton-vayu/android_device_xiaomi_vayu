@@ -106,7 +106,6 @@ ro.gfx.driver.1=com.qualcomm.qti.gpudrivers.msmnile.api30
 ro.hardware.egl=adreno
 ro.hardware.vulkan=adreno
 debug.renderengine.backend=skiaglthreaded
-renderthread.skia.reduceopstasksplitting=true
 ro.opengles.version=196610
 vendor.display.comp_mask=0
 vendor.display.disable_decimation=1
