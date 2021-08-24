@@ -102,3 +102,4 @@ persist.device_config.runtime_native.usap_pool_enabled=true
 
 # Blur
 ro.surface_flinger.supports_background_blur=0
+ro.launcher.blur.appLaunch=false
