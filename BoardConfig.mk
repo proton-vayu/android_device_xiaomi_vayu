@@ -135,7 +135,6 @@ BOARD_USES_METADATA_PARTITION := true
 
 # Power
 TARGET_TAP_TO_WAKE_NODE := "/sys/touchpanel/double_tap"
-TARGET_USES_INTERACTION_BOOST := true
 
 # Platform
 TARGET_BOARD_PLATFORM := msmnile
