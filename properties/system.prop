@@ -42,10 +42,6 @@ persist.vendor.ims.disableDebugLogs=1
 persist.vendor.ims.disableIMSLogs=1
 persist.vendor.ims.disableQXDMLogs=1
 
-# IOP
-vendor.iop.enable_prefetch_ofr=1
-vendor.iop.enable_uxe=0
-
 # Media
 media.settings.xml=/vendor/etc/media_profiles_vendor.xml
 media.stagefright.thumbnail.prefer_hw_codecs=true
@@ -67,10 +63,6 @@ persist.backup.ntpServer="0.pool.ntp.org"
 
 # Netflix custom property
 ro.netflix.bsp_rev=Q855-16947-1
-
-# Perf
-ro.vendor.qti.core_ctl_max_cpu=4
-ro.vendor.qti.core_ctl_min_cpu=2
 
 # Radio
 persist.radio.dynamic_sar=false
