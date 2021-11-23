@@ -28,10 +28,13 @@ get_prop(system_server, vendor_fp_prop);
 
 set_prop(hal_fingerprint_default, vendor_fp_prop)
 
+binder_call(hal_fingerprint_default, vendor_hal_perf_default)
+
 allow hal_fingerprint_default vendor_sysfs_spss:dir { search };
 allow hal_fingerprint_default vendor_sysfs_spss:file { open read };
 allow hal_fingerprint_default rootfs:dir r_dir_perms;
 allow hal_fingerprint_default system_data_root_file:dir r_dir_perms;
+allow hal_fingerprint_default vendor_hal_perf_hwservice:hwservice_manager find;
 
 typeattribute hal_fingerprint_default data_between_core_and_vendor_violators;
 allow hal_fingerprint_default goodix_fingerprint_data_file:dir create_dir_perms;
