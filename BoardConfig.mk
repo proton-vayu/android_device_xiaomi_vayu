@@ -77,7 +77,7 @@ TARGET_INPUTDISPATCHER_SKIP_EVENT_KEY := 304
 # Kernel
 BOARD_KERNEL_BASE := 0x00000000
 BOARD_KERNEL_SEPARATED_DTBO := true
-BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom androidboot.memcg=1
+BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom
 BOARD_KERNEL_CMDLINE += lpm_levels.sleep_disabled=1 service_locator.enable=1
 BOARD_KERNEL_CMDLINE += swiotlb=2048 msm_rtb.filter=0x237
 BOARD_KERNEL_CMDLINE += loop.max_part=7 androidboot.usbcontroller=a600000.dwc3
