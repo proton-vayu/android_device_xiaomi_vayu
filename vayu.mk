@@ -19,4 +19,4 @@ PRODUCT_MANUFACTURER := xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-PRODUCT_OVERRIDE_FINGERPRINT := google/redfin/redfin:12/SQ1A.220105.002/7961164:user/release-keys
+PRODUCT_OVERRIDE_FINGERPRINT := google/redfin/redfin:12/SQ1A.220205.002/8010174:user/release-keys
