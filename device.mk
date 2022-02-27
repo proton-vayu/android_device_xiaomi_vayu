@@ -491,7 +491,9 @@ PRODUCT_PACKAGES += \
 
 # VNDK
 PRODUCT_PACKAGES += \
-    com.android.vndk.current.on_vendor
+    com.android.vndk.current.on_vendor \
+    libvndksupport \
+    libvndksupport.vendor
 
 # WiFi
 PRODUCT_PACKAGES += \
