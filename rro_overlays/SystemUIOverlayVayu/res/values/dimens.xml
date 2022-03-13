@@ -34,4 +34,5 @@
 
     <dimen name="physical_power_button_center_screen_location_y">1020px</dimen>
     <dimen name="physical_fingerprint_sensor_center_screen_location_y">1020px</dimen>
+    <dimen name="physical_fingerprint_sensor_center_screen_location_x">1080px</dimen>
 </resources>
