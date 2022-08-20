@@ -11,6 +11,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit device configurations
 $(call inherit-product, device/xiaomi/vayu/device.mk)
 
+WITH_GMS := true
+
 PRODUCT_NAME := vayu
 PRODUCT_DEVICE := vayu
 PRODUCT_BRAND := POCO
